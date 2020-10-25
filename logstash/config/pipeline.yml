@@ -1,0 +1,4 @@
+- pipeline.id: my-pipeline_default
+  path.config: "/usr/share/logstash/config/logstash-default.conf"
+- pipeline.id: my-pipeline-http
+  path.config: "/usr/share/logstash/config/http.conf"
