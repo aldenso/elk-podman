@@ -72,7 +72,7 @@ curl -XPOST -D- "http://$PUBLICIP:5601/api/saved_objects/index-pattern" \
     -H 'Content-Type: application/json' \
     -H 'kbn-version: 7.9.2' \
     -u elastic:changeme \
-    -d '{"attributes":{"title":"logstash-*","timeFieldName":"@timestamp"}}'
+    -d '{"attributes":{"title":"http-groupa-*","timeFieldName":"@timestamp"}}'
 ```
 
 ```sh
@@ -80,7 +80,7 @@ curl -XPOST -D- "http://$PUBLICIP:5601/api/saved_objects/index-pattern" \
     -H 'Content-Type: application/json' \
     -H 'kbn-version: 7.9.2' \
     -u elastic:changeme \
-    -d '{"attributes":{"title":"http-*","timeFieldName":"@timestamp"}}'
+    -d '{"attributes":{"title":"http-groupb-*","timeFieldName":"@timestamp"}}'
 ```
 
 Test your indices
