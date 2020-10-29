@@ -14,7 +14,7 @@ Create a regular OS user to avoid bugs with podman userids, also assign wheel gr
 
 ```sh
 sudo useradd -m -d /home/elk elk && \
-sudo usermod -a -G wheel elk
+sudo usermod -a -G wheel elk && \
 sudo su - elk
 ```
 
